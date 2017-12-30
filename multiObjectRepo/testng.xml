@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="objectRepoVal" value="Delhi-BBI"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="Execution_Engine.SearchQueryHome"/>
+      <class name="Execution_Engine.ResultPage"/>
+      <class name="Execution_Engine.VerifyPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

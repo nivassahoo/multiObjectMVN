@@ -1,0 +1,35 @@
+#URL
+url= https://www.yatra.com/
+
+#Home Page
+from= //input[@id='BE_flight_origin_city']
+from_city= MAA
+from_Object= //strong[text()='MAA']
+
+to= //input[@id='BE_flight_arrival_city']
+to_city= BBI
+to_object= //strong[text()='BBI']
+
+onwardDate= //input[@id='BE_flight_depart_date']
+
+searchBtn = .//*[@id='BE_flight_flsearch_btn']
+
+
+#Result Page
+flight_Nm= (//div[@id='resultList_0'])[2]/div[1]/div[1]//article/div[1]/ul/li[1]//small[1]
+
+flight_Num= (//div[@id='resultList_0'])[2]/div[1]/div[1]//article/div[1]/ul/li[1]//small[2]
+
+flight_Fare= (//div[@id='resultList_0'])[2]/div[1]/div[1]//article/div[1]/ul//label[starts-with(@id,'fare')]
+
+book_Btn= (//div[@id='resultList_0'])[2]/div[1]/div[1]//article/div[1]/ul//li[5]//p[2]/span[1]
+
+
+#Review Page
+
+flight_NmCheck= .//*[@id='review-dom']/div[1]/div/div[1]/div[3]/article/div[1]/p/span[1]
+
+flight_NumCheck= .//*[@id='review-dom']/div[1]/div/div[1]/div[3]/article/div[1]/p/span[1]/span
+
+flight_FareCheck= .//*[@id='checkoutBase']/div[4]/main/div/aside/div[1]/div[1]/div/div[1]/span[1]
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28780" started-at="2017-09-15T20:46:38Z" finished-at="2017-09-15T20:47:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28780" started-at="2017-09-15T20:46:38Z" finished-at="2017-09-15T20:47:07Z">
+      <class name="Execution_Engine.ResultPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Execution_Engine.ResultPage@675d3402]" name="beforeSuite" is-config="true" duration-ms="13563" started-at="2017-09-16T02:16:24Z" finished-at="2017-09-16T02:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="resultPage()[pri:0, instance:Execution_Engine.ResultPage@675d3402]" name="resultPage" duration-ms="7388" started-at="2017-09-16T02:16:55Z" finished-at="2017-09-16T02:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultPage -->
+      </class> <!-- Execution_Engine.ResultPage -->
+      <class name="Execution_Engine.VerifyPage">
+        <test-method status="PASS" signature="verifyPage()[pri:0, instance:Execution_Engine.VerifyPage@26be92ad]" name="verifyPage" duration-ms="4612" started-at="2017-09-16T02:17:02Z" finished-at="2017-09-16T02:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+      </class> <!-- Execution_Engine.VerifyPage -->
+      <class name="Execution_Engine.SearchQueryHome">
+        <test-method status="PASS" signature="searchQueryHome()[pri:0, instance:Execution_Engine.SearchQueryHome@4c70fda8]" name="searchQueryHome" duration-ms="16751" started-at="2017-09-16T02:16:38Z" finished-at="2017-09-16T02:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchQueryHome -->
+      </class> <!-- Execution_Engine.SearchQueryHome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Execution_Engine.ResultPage">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Execution_Engine.ResultPage -->
+      <class name="Execution_Engine.VerifyPage">
+        <methods>
+          <include name="verifyPage"/>
+        </methods>
+      </class> <!-- Execution_Engine.VerifyPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
