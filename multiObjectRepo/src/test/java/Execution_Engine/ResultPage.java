@@ -1,7 +1,5 @@
 package Execution_Engine;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
@@ -16,6 +14,7 @@ public class ResultPage extends SetUP {
 	public static String name,number,fare;
 	
   @Test
+  
   public void resultPage() throws Exception {
 	  
 	  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(OR.getProperty("flight_Nm"))));
