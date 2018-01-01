@@ -30,6 +30,7 @@ public class captureScreenShot
 		System.out.println(e.getMessage());
 		 
 		}
+		 //return destination.getAbsolutePath();
 		return dest;
 	}
 	
